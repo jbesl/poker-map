@@ -168,6 +168,7 @@
   }
 
   $("panel-close").addEventListener("click", function () { $("panel").hidden = true; });
+  map.on("click", function () { $("panel").hidden = true; });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") $("panel").hidden = true;
   });
