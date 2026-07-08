@@ -1,0 +1,340 @@
+/* ------------------------------------------------------------------
+   Poker Tournament Map — design tokens
+   felt      #12382C  (card-room table green, chrome)
+   felt-deep #0B241C  (pressed/hover states)
+   brass     #C9A227  (rail accent: focus, active chips, links)
+   chip-red  #B23A3A  (guarantee badges)
+   paper     #FAF8F2  (panel + pill background)
+   ink       #20241F  (text on paper)
+   Display face: Barlow Condensed (card-room signage); UI: system stack.
+------------------------------------------------------------------- */
+:root {
+  --felt: #12382c;
+  --felt-deep: #0b241c;
+  --brass: #c9a227;
+  --chip-red: #b23a3a;
+  --paper: #faf8f2;
+  --ink: #20241f;
+  --ink-soft: #5c6258;
+  --line: #e2ddd0;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: var(--body);
+  color: var(--ink);
+  background: var(--felt);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------------- top bar ---------------- */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 16px;
+  background: var(--felt);
+  color: var(--paper);
+  flex-wrap: wrap;
+}
+
+.wordmark { display: flex; align-items: center; gap: 10px; }
+
+.wordmark h1 {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* little poker chip in the wordmark */
+.wordmark-chip {
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--chip-red);
+  border: 3px dashed var(--paper);
+  flex: none;
+}
+
+.searchbox {
+  display: flex;
+  margin-left: auto;
+}
+.searchbox input {
+  width: 210px;
+  padding: 7px 10px;
+  border: 1px solid rgba(250,248,242,.35);
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  background: rgba(250,248,242,.1);
+  color: var(--paper);
+  font-size: 14px;
+}
+.searchbox input::placeholder { color: rgba(250,248,242,.55); }
+.searchbox button {
+  padding: 7px 14px;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background: var(--brass);
+  color: var(--felt-deep);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.meta { font-size: 12.5px; color: rgba(250,248,242,.75); }
+
+/* ---------------- filters ---------------- */
+.filters {
+  background: var(--felt-deep);
+  color: var(--paper);
+  padding: 0 16px;
+}
+.filters summary {
+  cursor: pointer;
+  padding: 8px 0;
+  font-family: var(--display);
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  user-select: none;
+}
+.filter-count { color: var(--brass); font-family: var(--body); font-size: 12.5px; }
+
+.filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  align-items: flex-end;
+  padding: 2px 0 12px;
+}
+.filters fieldset {
+  border: none;
+  margin: 0; padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.filters legend {
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: rgba(250,248,242,.65);
+  padding: 0 0 4px;
+}
+.filters input {
+  padding: 6px 8px;
+  border: 1px solid rgba(250,248,242,.3);
+  border-radius: 6px;
+  background: rgba(250,248,242,.08);
+  color: var(--paper);
+  font-size: 14px;
+  color-scheme: dark;
+}
+.filters input[type="number"] { width: 84px; }
+.dash { color: rgba(250,248,242,.5); }
+
+.game-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.game-chip {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(250,248,242,.4);
+  background: transparent;
+  color: var(--paper);
+  font-size: 13px;
+  cursor: pointer;
+}
+.game-chip[aria-pressed="true"] {
+  background: var(--brass);
+  border-color: var(--brass);
+  color: var(--felt-deep);
+  font-weight: 700;
+}
+
+.clear-btn {
+  padding: 6px 12px;
+  background: transparent;
+  border: 1px solid rgba(250,248,242,.4);
+  border-radius: 6px;
+  color: var(--paper);
+  cursor: pointer;
+  font-size: 13px;
+}
+.clear-btn:hover { background: rgba(250,248,242,.12); }
+
+:is(button, input, summary):focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
+
+/* ---------------- map ---------------- */
+#map { flex: 1; min-height: 0; }
+
+/* venue pin: hotel-style buy-in pill */
+.venue-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px 3px 5px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1.5px solid var(--felt);
+  border-radius: 999px;
+  font: 700 13px/1.5 var(--body);
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0,0,0,.35);
+  cursor: pointer;
+  transition: transform .1s ease;
+}
+.venue-pill:hover { transform: scale(1.08); z-index: 10; }
+.venue-pill .dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: var(--chip-red);
+  border: 2px dashed var(--paper);
+  box-shadow: 0 0 0 1.5px var(--chip-red);
+  flex: none;
+}
+.leaflet-div-icon { background: none; border: none; }
+
+/* cluster: poker chip badge */
+.chip-cluster {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: var(--felt);
+  border: 4px dashed var(--paper);
+  box-shadow: 0 0 0 3px var(--felt), 0 2px 6px rgba(0,0,0,.4);
+  color: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 15px var(--display);
+}
+
+/* hover tooltip card */
+.leaflet-tooltip.venue-tip {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.25);
+  padding: 10px 12px;
+  max-width: 270px;
+  white-space: normal;
+}
+.venue-tip h3 {
+  margin: 0 0 2px;
+  font-family: var(--display);
+  font-size: 17px;
+  letter-spacing: .02em;
+}
+.venue-tip .tip-city { margin: 0 0 6px; color: var(--ink-soft); font-size: 12px; }
+.venue-tip ul { margin: 0; padding: 0; list-style: none; font-size: 12.5px; }
+.venue-tip li { padding: 3px 0; border-top: 1px dotted var(--line); }
+.venue-tip .tip-more { color: var(--ink-soft); font-style: italic; }
+.venue-tip .money { color: var(--felt); font-weight: 700; }
+
+/* ---------------- drill-down panel ---------------- */
+.panel {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: min(400px, 100%);
+  background: var(--paper);
+  box-shadow: -6px 0 22px rgba(0,0,0,.3);
+  z-index: 1100;
+  display: flex;
+  flex-direction: column;
+}
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px;
+  background: var(--felt);
+  color: var(--paper);
+}
+.panel-head h2 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 24px;
+  letter-spacing: .03em;
+}
+.panel-city { margin: 3px 0 0; font-size: 13px; color: rgba(250,248,242,.75); }
+#panel-close {
+  background: none; border: none;
+  color: var(--paper);
+  font-size: 26px; line-height: 1;
+  cursor: pointer;
+  padding: 2px 8px;
+}
+
+.panel-list {
+  margin: 0; padding: 0 16px 16px;
+  list-style: none;
+  overflow-y: auto;
+}
+.panel-list li {
+  border-bottom: 1px solid var(--line);
+  padding: 12px 0;
+}
+.t-name { font-weight: 700; font-size: 15px; margin: 0 0 3px; }
+.t-when { font-size: 13px; color: var(--ink-soft); margin: 0 0 5px; }
+.t-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 6px; }
+.tag {
+  font-size: 12px;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: #eee8da;
+  color: var(--ink);
+}
+.tag.buyin { background: var(--felt); color: var(--paper); font-weight: 700; }
+.tag.gtd { background: var(--chip-red); color: var(--paper); font-weight: 700; }
+.t-link { font-size: 13px; color: var(--felt); font-weight: 600; }
+.t-link:hover { color: var(--brass); }
+
+/* ---------------- empty state ---------------- */
+.empty-state {
+  position: fixed;
+  left: 50%; bottom: 28px;
+  transform: translateX(-50%);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--brass);
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+  padding: 12px 18px;
+  z-index: 1200;
+  max-width: 92vw;
+  text-align: center;
+}
+.empty-state p { margin: 3px 0; font-size: 14px; }
+.linklike {
+  background: none; border: none; padding: 0;
+  color: var(--felt); font: inherit; font-weight: 700;
+  text-decoration: underline; cursor: pointer;
+}
+
+/* ---------------- small screens ---------------- */
+@media (max-width: 700px) {
+  .topbar { gap: 8px; padding: 8px 12px; }
+  .wordmark h1 { font-size: 19px; }
+  .searchbox { margin-left: 0; width: 100%; order: 3; }
+  .searchbox input { flex: 1; width: auto; }
+  .meta { margin-left: auto; }
+  .filters[open] .filters-row { padding-bottom: 10px; }
+  .panel { width: 100%; top: 35%; border-radius: 14px 14px 0 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .venue-pill { transition: none; }
+}

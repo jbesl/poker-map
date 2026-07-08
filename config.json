@@ -1,0 +1,12 @@
+{
+  "_comment_user_agent": "Be honest and identifiable. Put a real contact email here — it's what makes the scraper a good citizen and what Nominatim's policy requires.",
+  "user_agent": "PokerMapDashboard/1.0 (personal tournament map; contact: YOUR-EMAIL@example.com)",
+
+  "_comment_home": "=== SET THE RECIPIENT'S HOME AREA HERE === The map opens centered on these coordinates at this zoom (he can pan anywhere from there). Right-click his city in Google Maps to get lat/lon. Zoom 8 shows roughly a 150-mile region.",
+  "home": {
+    "label": "Cleveland, OH",
+    "lat": 41.4993,
+    "lon": -81.6944,
+    "zoom": 8
+  }
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poker Tournament Map</title>
+<meta name="description" content="Every upcoming live poker tournament in the region, on one map.">
+
+<!-- Leaflet + markercluster: free, no API key, pinned versions from cdnjs -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wordmark">
+    <span class="wordmark-chip" aria-hidden="true"></span>
+    <h1>Poker Tournament Map</h1>
+  </div>
+
+  <form class="searchbox" id="search-form" title="Recenters the map — it never hides results">
+    <input id="search-input" type="text" placeholder="Jump to a city or ZIP…"
+           autocomplete="off" aria-label="Recenter map on a city or ZIP code">
+    <button type="submit">Go</button>
+  </form>
+
+  <div class="meta">
+    <span id="refreshed">Loading…</span>
+  </div>
+</header>
+
+<details class="filters" id="filters" open>
+  <summary>Filters <span id="filter-count" class="filter-count"></span></summary>
+  <div class="filters-row">
+    <fieldset>
+      <legend>Buy-in</legend>
+      <input type="number" id="buyin-min" min="0" placeholder="Min $" aria-label="Minimum buy-in">
+      <span class="dash">–</span>
+      <input type="number" id="buyin-max" min="0" placeholder="Max $" aria-label="Maximum buy-in">
+    </fieldset>
+    <fieldset>
+      <legend>Dates</legend>
+      <input type="date" id="date-from" aria-label="From date">
+      <span class="dash">–</span>
+      <input type="date" id="date-to" aria-label="To date">
+    </fieldset>
+    <fieldset class="games-fieldset">
+      <legend>Game</legend>
+      <div id="game-chips" class="game-chips" role="group" aria-label="Game formats"></div>
+    </fieldset>
+    <button type="button" id="clear-filters" class="clear-btn">Clear all</button>
+  </div>
+</details>
+
+<main id="map" aria-label="Tournament map"></main>
+
+<div class="empty-state" id="empty-state" hidden>
+  <p><strong>No tournaments match these filters.</strong></p>
+  <p>Try widening the buy-in range or dates — or <button type="button" id="empty-clear" class="linklike">clear all filters</button>.</p>
+</div>
+
+<aside class="panel" id="panel" hidden aria-label="Venue details">
+  <header class="panel-head">
+    <div>
+      <h2 id="panel-venue"></h2>
+      <p id="panel-city" class="panel-city"></p>
+    </div>
+    <button type="button" id="panel-close" aria-label="Close venue details">×</button>
+  </header>
+  <ol id="panel-list" class="panel-list"></ol>
+</aside>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

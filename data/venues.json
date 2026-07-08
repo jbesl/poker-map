@@ -1,0 +1,146 @@
+{
+  "example-hand-fixed-room--sometown-oh": {
+    "_note": "locked: true means the pipeline will never re-geocode or overwrite this entry \u2014 edit lat/lon by hand and set locked to protect your fix.",
+    "city": "Sometown",
+    "lat": 41.0,
+    "locked": true,
+    "lon": -81.0,
+    "state": "OH",
+    "venue": "Example Hand-Fixed Room"
+  },
+  "firekeepers-casino--battle-creek-mi": {
+    "city": "Battle Creek",
+    "geocoded_at": "2026-07-08",
+    "lat": 42.2506,
+    "locked": false,
+    "lon": -85.1132,
+    "state": "MI",
+    "venue": "FireKeepers Casino"
+  },
+  "hard-rock-casino-cincinnati--cincinnati-oh": {
+    "city": "Cincinnati",
+    "geocoded_at": "2026-07-08",
+    "lat": 39.1116,
+    "locked": false,
+    "lon": -84.5064,
+    "state": "OH",
+    "venue": "Hard Rock Casino Cincinnati"
+  },
+  "hollywood-casino-columbus--columbus-oh": {
+    "city": "Columbus",
+    "geocoded_at": "2026-07-08",
+    "lat": 39.9481,
+    "locked": false,
+    "lon": -83.1156,
+    "state": "OH",
+    "venue": "Hollywood Casino Columbus"
+  },
+  "hollywood-casino-toledo--toledo-oh": {
+    "city": "Toledo",
+    "geocoded_at": "2026-07-08",
+    "lat": 41.618,
+    "locked": false,
+    "lon": -83.531,
+    "state": "OH",
+    "venue": "Hollywood Casino Toledo"
+  },
+  "horseshoe-indianapolis--shelbyville-in": {
+    "city": "Shelbyville",
+    "geocoded_at": "2026-07-08",
+    "lat": 39.5647,
+    "locked": false,
+    "lon": -85.7891,
+    "state": "IN",
+    "venue": "Horseshoe Indianapolis"
+  },
+  "jack-cleveland-casino--cleveland-oh": {
+    "city": "Cleveland",
+    "geocoded_at": "2026-07-08",
+    "lat": 41.4993,
+    "locked": false,
+    "lon": -81.6934,
+    "state": "OH",
+    "venue": "JACK Cleveland Casino"
+  },
+  "jack-thistledown-racino--north-randall-oh": {
+    "city": "North Randall",
+    "geocoded_at": "2026-07-08",
+    "lat": 41.4351,
+    "locked": false,
+    "lon": -81.5279,
+    "state": "OH",
+    "venue": "JACK Thistledown Racino"
+  },
+  "mgm-grand-detroit--detroit-mi": {
+    "city": "Detroit",
+    "geocoded_at": "2026-07-08",
+    "lat": 42.332,
+    "locked": false,
+    "lon": -83.0602,
+    "state": "MI",
+    "venue": "MGM Grand Detroit"
+  },
+  "mgm-northfield-park--northfield-oh": {
+    "city": "Northfield",
+    "geocoded_at": "2026-07-08",
+    "lat": 41.3236,
+    "locked": false,
+    "lon": -81.5334,
+    "state": "OH",
+    "venue": "MGM Northfield Park"
+  },
+  "motorcity-casino--detroit-mi": {
+    "city": "Detroit",
+    "geocoded_at": "2026-07-08",
+    "lat": 42.3391,
+    "locked": false,
+    "lon": -83.0699,
+    "state": "MI",
+    "venue": "MotorCity Casino"
+  },
+  "presque-isle-downs--erie-pa": {
+    "city": "Erie",
+    "geocoded_at": "2026-07-08",
+    "lat": 42.0439,
+    "locked": false,
+    "lon": -80.0219,
+    "state": "PA",
+    "venue": "Presque Isle Downs"
+  },
+  "rivers-casino-pittsburgh--pittsburgh-pa": {
+    "city": "Pittsburgh",
+    "geocoded_at": "2026-07-08",
+    "lat": 40.4472,
+    "locked": false,
+    "lon": -80.0157,
+    "state": "PA",
+    "venue": "Rivers Casino Pittsburgh"
+  },
+  "seneca-niagara-casino--niagara-falls-ny": {
+    "city": "Niagara Falls",
+    "geocoded_at": "2026-07-08",
+    "lat": 43.087,
+    "locked": false,
+    "lon": -79.0616,
+    "state": "NY",
+    "venue": "Seneca Niagara Casino"
+  },
+  "the-meadows-casino--washington-pa": {
+    "city": "Washington",
+    "geocoded_at": "2026-07-08",
+    "lat": 40.1937,
+    "locked": false,
+    "lon": -80.2381,
+    "state": "PA",
+    "venue": "The Meadows Casino"
+  },
+  "wheeling-island-casino--wheeling-wv": {
+    "city": "Wheeling",
+    "geocoded_at": "2026-07-08",
+    "lat": 40.0685,
+    "locked": false,
+    "lon": -80.7373,
+    "state": "WV",
+    "venue": "Wheeling Island Casino"
+  }
+}

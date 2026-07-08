@@ -1,0 +1,1087 @@
+{
+ "generated_at": "2026-07-08T01:43:30+00:00",
+ "venue_count": 15,
+ "tournament_count": 93,
+ "venues": [
+  {
+   "key": "jack-cleveland-casino--cleveland-oh",
+   "venue": "JACK Cleveland Casino",
+   "city": "Cleveland",
+   "state": "OH",
+   "lat": 41.4993,
+   "lon": -81.6934,
+   "tournaments": [
+    {
+     "name": "Big O Special",
+     "date": "2026-07-12",
+     "start_time": "11:00",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Seniors Event",
+     "date": "2026-07-15",
+     "start_time": "11:00",
+     "buyin": 120.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Weekend Warm-Up $25K GTD",
+     "date": "2026-07-25",
+     "start_time": "12:00",
+     "buyin": 400.0,
+     "guarantee": 25000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Turbo Tuesday",
+     "date": "2026-07-26",
+     "start_time": "10:15",
+     "buyin": 100.0,
+     "guarantee": 2000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Turbo Tuesday",
+     "date": "2026-07-26",
+     "start_time": "19:00",
+     "buyin": 100.0,
+     "guarantee": 2000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-29",
+     "start_time": "10:15",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "jack-thistledown-racino--north-randall-oh",
+   "venue": "JACK Thistledown Racino",
+   "city": "North Randall",
+   "state": "OH",
+   "lat": 41.4351,
+   "lon": -81.5279,
+   "tournaments": [
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-08",
+     "start_time": "10:15",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Daily Deepstack NLHE",
+     "date": "2026-07-11",
+     "start_time": "18:15",
+     "buyin": 150.0,
+     "guarantee": 3000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big O Special",
+     "date": "2026-07-12",
+     "start_time": "18:15",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Seniors Event",
+     "date": "2026-07-13",
+     "start_time": "12:00",
+     "buyin": 120.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Friday Night $15K GTD",
+     "date": "2026-07-14",
+     "start_time": "10:15",
+     "buyin": 300.0,
+     "guarantee": 15000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Friday Night $15K GTD",
+     "date": "2026-07-19",
+     "start_time": "19:00",
+     "buyin": 300.0,
+     "guarantee": 15000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Daily Deepstack NLHE",
+     "date": "2026-07-21",
+     "start_time": "12:00",
+     "buyin": 150.0,
+     "guarantee": 3000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-27",
+     "start_time": "18:15",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "mgm-northfield-park--northfield-oh",
+   "venue": "MGM Northfield Park",
+   "city": "Northfield",
+   "state": "OH",
+   "lat": 41.3236,
+   "lon": -81.5334,
+   "tournaments": [
+    {
+     "name": "Ladies Event",
+     "date": "2026-07-08",
+     "start_time": "18:15",
+     "buyin": 130.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-13",
+     "start_time": "10:15",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Weekend Warm-Up $25K GTD",
+     "date": "2026-07-18",
+     "start_time": "11:00",
+     "buyin": 400.0,
+     "guarantee": 25000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "hollywood-casino-columbus--columbus-oh",
+   "venue": "Hollywood Casino Columbus",
+   "city": "Columbus",
+   "state": "OH",
+   "lat": 39.9481,
+   "lon": -83.1156,
+   "tournaments": [
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-08",
+     "start_time": "10:15",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Turbo Tuesday",
+     "date": "2026-07-08",
+     "start_time": "19:00",
+     "buyin": 100.0,
+     "guarantee": 2000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-10",
+     "start_time": "17:00",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Weekend Warm-Up $25K GTD",
+     "date": "2026-07-20",
+     "start_time": "11:00",
+     "buyin": 400.0,
+     "guarantee": 25000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-21",
+     "start_time": "10:15",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-23",
+     "start_time": "17:00",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monday Night $10K GTD",
+     "date": "2026-07-29",
+     "start_time": "10:15",
+     "buyin": 200.0,
+     "guarantee": 10000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "hollywood-casino-toledo--toledo-oh",
+   "venue": "Hollywood Casino Toledo",
+   "city": "Toledo",
+   "state": "OH",
+   "lat": 41.618,
+   "lon": -83.531,
+   "tournaments": [
+    {
+     "name": "Daily Deepstack NLHE",
+     "date": "2026-07-08",
+     "start_time": "19:00",
+     "buyin": 150.0,
+     "guarantee": 3000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-10",
+     "start_time": "18:15",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-10",
+     "start_time": "19:00",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-12",
+     "start_time": "17:00",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Friday Night $15K GTD",
+     "date": "2026-07-16",
+     "start_time": "18:15",
+     "buyin": 300.0,
+     "guarantee": 15000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big O Special",
+     "date": "2026-07-18",
+     "start_time": "11:00",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Turbo Tuesday",
+     "date": "2026-07-21",
+     "start_time": "18:15",
+     "buyin": 100.0,
+     "guarantee": 2000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Daily Deepstack NLHE",
+     "date": "2026-07-29",
+     "start_time": "10:15",
+     "buyin": 150.0,
+     "guarantee": 3000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "hard-rock-casino-cincinnati--cincinnati-oh",
+   "venue": "Hard Rock Casino Cincinnati",
+   "city": "Cincinnati",
+   "state": "OH",
+   "lat": 39.1116,
+   "lon": -84.5064,
+   "tournaments": [
+    {
+     "name": "Monthly Main Event $100K GTD",
+     "date": "2026-07-14",
+     "start_time": "19:00",
+     "buyin": 1100.0,
+     "guarantee": 100000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-15",
+     "start_time": "17:00",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-16",
+     "start_time": "17:00",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Friday Night $15K GTD",
+     "date": "2026-07-21",
+     "start_time": "17:00",
+     "buyin": 300.0,
+     "guarantee": 15000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Seniors Event",
+     "date": "2026-07-22",
+     "start_time": "19:00",
+     "buyin": 120.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Turbo Tuesday",
+     "date": "2026-07-27",
+     "start_time": "10:15",
+     "buyin": 100.0,
+     "guarantee": 2000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monday Night $10K GTD",
+     "date": "2026-07-29",
+     "start_time": "12:00",
+     "buyin": 200.0,
+     "guarantee": 10000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "rivers-casino-pittsburgh--pittsburgh-pa",
+   "venue": "Rivers Casino Pittsburgh",
+   "city": "Pittsburgh",
+   "state": "PA",
+   "lat": 40.4472,
+   "lon": -80.0157,
+   "tournaments": [
+    {
+     "name": "Ladies Event",
+     "date": "2026-07-12",
+     "start_time": "17:00",
+     "buyin": 130.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-13",
+     "start_time": "17:00",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-14",
+     "start_time": "10:15",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monday Night $10K GTD",
+     "date": "2026-07-14",
+     "start_time": "18:15",
+     "buyin": 200.0,
+     "guarantee": 10000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-15",
+     "start_time": "10:15",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Weekend Warm-Up $25K GTD",
+     "date": "2026-07-22",
+     "start_time": "19:00",
+     "buyin": 400.0,
+     "guarantee": 25000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-25",
+     "start_time": "18:15",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Seniors Event",
+     "date": "2026-07-27",
+     "start_time": "17:00",
+     "buyin": 120.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "the-meadows-casino--washington-pa",
+   "venue": "The Meadows Casino",
+   "city": "Washington",
+   "state": "PA",
+   "lat": 40.1937,
+   "lon": -80.2381,
+   "tournaments": [
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-11",
+     "start_time": "17:00",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Ladies Event",
+     "date": "2026-07-14",
+     "start_time": "18:15",
+     "buyin": 130.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monday Night $10K GTD",
+     "date": "2026-07-15",
+     "start_time": "17:00",
+     "buyin": 200.0,
+     "guarantee": 10000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Weekend Warm-Up $25K GTD",
+     "date": "2026-07-19",
+     "start_time": "10:15",
+     "buyin": 400.0,
+     "guarantee": 25000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big O Special",
+     "date": "2026-07-20",
+     "start_time": "12:00",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "wheeling-island-casino--wheeling-wv",
+   "venue": "Wheeling Island Casino",
+   "city": "Wheeling",
+   "state": "WV",
+   "lat": 40.0685,
+   "lon": -80.7373,
+   "tournaments": [
+    {
+     "name": "Friday Night $15K GTD",
+     "date": "2026-07-10",
+     "start_time": "10:15",
+     "buyin": 300.0,
+     "guarantee": 15000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Ladies Event",
+     "date": "2026-07-12",
+     "start_time": "19:00",
+     "buyin": 130.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-13",
+     "start_time": "17:00",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-24",
+     "start_time": "18:15",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "mgm-grand-detroit--detroit-mi",
+   "venue": "MGM Grand Detroit",
+   "city": "Detroit",
+   "state": "MI",
+   "lat": 42.332,
+   "lon": -83.0602,
+   "tournaments": [
+    {
+     "name": "Seniors Event",
+     "date": "2026-07-14",
+     "start_time": "19:00",
+     "buyin": 120.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Ladies Event",
+     "date": "2026-07-15",
+     "start_time": "10:15",
+     "buyin": 130.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-16",
+     "start_time": "17:00",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Friday Night $15K GTD",
+     "date": "2026-07-16",
+     "start_time": "18:15",
+     "buyin": 300.0,
+     "guarantee": 15000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Turbo Tuesday",
+     "date": "2026-07-17",
+     "start_time": "12:00",
+     "buyin": 100.0,
+     "guarantee": 2000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Ladies Event",
+     "date": "2026-07-21",
+     "start_time": "12:00",
+     "buyin": 130.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-27",
+     "start_time": "19:00",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "motorcity-casino--detroit-mi",
+   "venue": "MotorCity Casino",
+   "city": "Detroit",
+   "state": "MI",
+   "lat": 42.3391,
+   "lon": -83.0699,
+   "tournaments": [
+    {
+     "name": "Big O Special",
+     "date": "2026-07-15",
+     "start_time": "10:15",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big O Special",
+     "date": "2026-07-15",
+     "start_time": "17:00",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monday Night $10K GTD",
+     "date": "2026-07-15",
+     "start_time": "17:00",
+     "buyin": 200.0,
+     "guarantee": 10000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-23",
+     "start_time": "12:00",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monthly Main Event $100K GTD",
+     "date": "2026-07-23",
+     "start_time": "18:15",
+     "buyin": 1100.0,
+     "guarantee": 100000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big O Special",
+     "date": "2026-07-26",
+     "start_time": "17:00",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "firekeepers-casino--battle-creek-mi",
+   "venue": "FireKeepers Casino",
+   "city": "Battle Creek",
+   "state": "MI",
+   "lat": 42.2506,
+   "lon": -85.1132,
+   "tournaments": [
+    {
+     "name": "Mixed Game Night (HORSE)",
+     "date": "2026-07-14",
+     "start_time": "17:00",
+     "buyin": 200.0,
+     "guarantee": null,
+     "game": "MIXED",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big O Special",
+     "date": "2026-07-18",
+     "start_time": "12:00",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Ladies Event",
+     "date": "2026-07-25",
+     "start_time": "10:15",
+     "buyin": 130.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "seneca-niagara-casino--niagara-falls-ny",
+   "venue": "Seneca Niagara Casino",
+   "city": "Niagara Falls",
+   "state": "NY",
+   "lat": 43.087,
+   "lon": -79.0616,
+   "tournaments": [
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-13",
+     "start_time": "18:15",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-16",
+     "start_time": "18:15",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monthly Main Event $100K GTD",
+     "date": "2026-07-20",
+     "start_time": "10:15",
+     "buyin": 1100.0,
+     "guarantee": 100000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monthly Main Event $100K GTD",
+     "date": "2026-07-20",
+     "start_time": "11:00",
+     "buyin": 1100.0,
+     "guarantee": 100000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-21",
+     "start_time": "10:15",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Daily Deepstack NLHE",
+     "date": "2026-07-25",
+     "start_time": "18:15",
+     "buyin": 150.0,
+     "guarantee": 3000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Daily Deepstack NLHE",
+     "date": "2026-07-28",
+     "start_time": "18:15",
+     "buyin": 150.0,
+     "guarantee": 3000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "presque-isle-downs--erie-pa",
+   "venue": "Presque Isle Downs",
+   "city": "Erie",
+   "state": "PA",
+   "lat": 42.0439,
+   "lon": -80.0219,
+   "tournaments": [
+    {
+     "name": "Friday Night $15K GTD",
+     "date": "2026-07-09",
+     "start_time": "11:00",
+     "buyin": 300.0,
+     "guarantee": 15000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-09",
+     "start_time": "18:15",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big O Special",
+     "date": "2026-07-10",
+     "start_time": "19:00",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Seniors Event",
+     "date": "2026-07-13",
+     "start_time": "12:00",
+     "buyin": 120.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Friday Night $15K GTD",
+     "date": "2026-07-13",
+     "start_time": "17:00",
+     "buyin": 300.0,
+     "guarantee": 15000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "PLO Wednesday",
+     "date": "2026-07-20",
+     "start_time": "19:00",
+     "buyin": 180.0,
+     "guarantee": 5000.0,
+     "game": "PLO",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Seniors Event",
+     "date": "2026-07-26",
+     "start_time": "18:15",
+     "buyin": 120.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monday Night $10K GTD",
+     "date": "2026-07-26",
+     "start_time": "18:15",
+     "buyin": 200.0,
+     "guarantee": 10000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  },
+  {
+   "key": "horseshoe-indianapolis--shelbyville-in",
+   "venue": "Horseshoe Indianapolis",
+   "city": "Shelbyville",
+   "state": "IN",
+   "lat": 39.5647,
+   "lon": -85.7891,
+   "tournaments": [
+    {
+     "name": "Big Stack Bounty",
+     "date": "2026-07-10",
+     "start_time": "10:15",
+     "buyin": 250.0,
+     "guarantee": 8000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Daily Deepstack NLHE",
+     "date": "2026-07-17",
+     "start_time": "10:15",
+     "buyin": 150.0,
+     "guarantee": 3000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Monthly Main Event $100K GTD",
+     "date": "2026-07-18",
+     "start_time": "19:00",
+     "buyin": 1100.0,
+     "guarantee": 100000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Big O Special",
+     "date": "2026-07-19",
+     "start_time": "18:15",
+     "buyin": 220.0,
+     "guarantee": 4000.0,
+     "game": "BIG O",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Weekend Warm-Up $25K GTD",
+     "date": "2026-07-20",
+     "start_time": "10:15",
+     "buyin": 400.0,
+     "guarantee": 25000.0,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    },
+    {
+     "name": "Seniors Event",
+     "date": "2026-07-20",
+     "start_time": "12:00",
+     "buyin": 120.0,
+     "guarantee": null,
+     "game": "NLHE",
+     "url": "https://www.pokeratlas.com/",
+     "source": "mock"
+    }
+   ]
+  }
+ ]
+}
