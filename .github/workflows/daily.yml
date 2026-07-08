@@ -1,0 +1,44 @@
+# Daily data refresh — no server, no cost.
+#
+# Runs once a day, pulls tournaments, geocodes any brand-new venues, and
+# commits the refreshed data files. GitHub Pages (configured to serve the
+# /docs folder) picks the commit up automatically, so the dashboard URL
+# always shows fresh data with zero infrastructure.
+#
+# Manual run: repo -> Actions tab -> "Daily tournament refresh" -> Run workflow.
+
+name: Daily tournament refresh
+
+on:
+  schedule:
+    - cron: "17 10 * * *"   # 10:17 UTC daily (~6am Eastern; odd minute avoids the top-of-hour rush)
+  workflow_dispatch:         # allows manual runs from the Actions tab
+
+permissions:
+  contents: write            # needed to commit the refreshed data files
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the daily pipeline
+        run: python -m ingest.pipeline
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "poker-map-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/tournaments.json data/venues.json data/http_cache.json
+          # Only commit if something actually changed:
+          git diff --cached --quiet || git commit -m "Daily data refresh"
+          git push
