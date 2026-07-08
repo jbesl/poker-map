@@ -332,7 +332,13 @@ body {
   .searchbox input { flex: 1; width: auto; }
   .meta { margin-left: auto; }
   .filters[open] .filters-row { padding-bottom: 10px; }
-  .panel { width: 100%; top: 35%; border-radius: 14px 14px 0 0; }
+  .panel {
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    max-height: 50%;
+    border-radius: 14px 14px 0 0;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
